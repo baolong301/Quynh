@@ -1,0 +1,19 @@
+/* layout
+------------------------------------------------------------*/
+body{
+	font-family: $mainFonts;
+	font-size: 1.6rem;
+	min-width: $baseWidth;
+	line-height: 1;
+	font-weight: 500;
+	color: #333;
+	@include breakpoint(sp) {
+		min-width: 320px;
+	}
+}
+//-------------------------------------------------------
+.l-container{
+	width: $baseWidth;
+	margin: 0 auto;
+}
+//-------------------------------------------------------
